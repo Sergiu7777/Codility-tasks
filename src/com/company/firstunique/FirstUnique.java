@@ -1,4 +1,4 @@
-package com.company;
+package com.company.firstunique;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -10,7 +10,7 @@ public class FirstUnique {
 
     public static int solution(int[] A) {
         // write your code in Java SE 8
-        List<Integer> intermediate = Arrays.stream(A).asLongStream().boxed().map(Long::intValue).collect(Collectors.toList());
+        List<Integer> intermediate = Arrays.stream(A).boxed().collect(Collectors.toList());
 
         for (Integer i : intermediate) {
             int freq = Collections.frequency(intermediate, i);
