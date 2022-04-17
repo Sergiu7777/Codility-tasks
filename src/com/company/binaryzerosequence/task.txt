@@ -1,0 +1,1 @@
+Write a method which will find the longest streak of "0" from the binary representation of the provided decimal integer number.

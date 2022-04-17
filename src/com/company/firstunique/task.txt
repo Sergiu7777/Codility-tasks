@@ -1,0 +1,1 @@
+Write a method which will find the first unique number in the given array.

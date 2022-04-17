@@ -1,0 +1,1 @@
+Write a method shiftArray(int[] A, int K) which will rotate the array elements K times from left to right.

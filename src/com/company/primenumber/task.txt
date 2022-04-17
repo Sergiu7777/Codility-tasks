@@ -1,0 +1,1 @@
+Write a method to find if the integer number num is prime or not. A prime number is a number which is a positive integer greater than "1" and is divisible only by "1" or by himself. "2" is the only odd prime number;

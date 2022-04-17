@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class FirstUnique {
     public static void main(String[] args) {
-        System.out.println(solution(new int[]{2, 4, 3, 1, 1, 6, 6, 4}));
+        System.out.println(solution(new int[]{2, 4, 3, 1, 1, 2, 7, 6, 6, 5, 4}));
     }
 
     public static int solution(int[] A) {
